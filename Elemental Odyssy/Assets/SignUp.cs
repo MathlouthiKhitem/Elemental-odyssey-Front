@@ -1,33 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.Networking;
 
+public class SignUp : MonoBehaviour
+{
 
-public class login : MonoBehaviour
-{  
-    [SerializeField] private string authURL = "http://127.0.0.1:9090/user/signin";
+    [SerializeField] private string authURL = "http://127.0.0.1:9090/user/signup";
+    [SerializeField] private TMPro.TMP_InputField FirstNameInputField;
+    [SerializeField] private TMPro.TMP_InputField LastNameInputField;
     [SerializeField] private TMPro.TMP_InputField EmailInputField;
+    [SerializeField] private TMPro.TMP_InputField AgeInputField;
     [SerializeField] private TMPro.TMP_InputField PasswordInputField;
     
-    public void OnLoginClick()
+    public void OnSignUpClick()
     {
 
-        StartCoroutine(TryLogin());
+        StartCoroutine(TrySignUp());
         
 
     }
-    private IEnumerator TryLogin()
+    private IEnumerator TrySignUp()
     {
+        string FirstName = FirstNameInputField.text;
+        string LastName = LastNameInputField.text;
         string Email = EmailInputField.text;
+        string Age = AgeInputField.text;
         string Password = PasswordInputField.text;
-        Debug.Log(Email + " " + Password);
+        Debug.Log(FirstName + " " + Password);
         WWWForm LoginForm = new WWWForm();
+        LoginForm.AddField("FirstName",FirstName);
+        LoginForm.AddField("LastName",LastName);
         LoginForm.AddField("Email",Email);
+        LoginForm.AddField("Age",Age);
         LoginForm.AddField("Password",Password);
-       
-        
         UnityWebRequest request = UnityWebRequest.Post(authURL,LoginForm);
         var handler = request.SendWebRequest();
         float startTime = 0.0f;
