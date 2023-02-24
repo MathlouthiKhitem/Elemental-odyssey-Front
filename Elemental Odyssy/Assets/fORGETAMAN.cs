@@ -4,26 +4,23 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Networking;
 
-public class VerficationEmail : MonoBehaviour
+
+public class fORGETAMAN : MonoBehaviour
 {
     [SerializeField] private string authURL = "http://127.0.0.1:9090/user/forgot";
     [SerializeField] private TMPro.TMP_InputField EmailInputField;
-
     
-
+    
     public void OnForgetClick()
     {
 
         StartCoroutine(TryForget());
-
         
 
     }
-    
     private IEnumerator TryForget()
     {
         string Email = EmailInputField.text;
-        
         Debug.Log(Email);
         WWWForm LoginForm = new WWWForm();
         LoginForm.AddField("Email",Email);
@@ -44,22 +41,12 @@ public class VerficationEmail : MonoBehaviour
         }
         if (request.result == UnityWebRequest.Result.Success) 
         { 
-            
-            Debug.Log("Serveur "+request.downloadHandler.text);
-             string code =request.downloadHandler.text;
-             PlayerPrefs.SetString("mycode",code);
-             string code1=PlayerPrefs.GetString("mycode",code);
-             Debug.Log("code1 "+code1);
-             PlayerPrefs.Save();
-             
+            Debug.Log(request.downloadHandler.text);
         }
-
         else
          {
             Debug.Log("unable to connect");
         }
-        
         yield return null;  
     }
-
 }
