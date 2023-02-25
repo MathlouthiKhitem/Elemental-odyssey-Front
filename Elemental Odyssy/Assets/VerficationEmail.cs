@@ -48,8 +48,11 @@ public class VerficationEmail : MonoBehaviour
             Debug.Log("Serveur "+request.downloadHandler.text);
              string code =request.downloadHandler.text;
              PlayerPrefs.SetString("mycode",code);
-             string code1=PlayerPrefs.GetString("mycode",code);
-             Debug.Log("code1 "+code1);
+             PlayerPrefs.SetString("Email",Email);
+            //  string code1=PlayerPrefs.GetString("mycode",code);
+            //  Debug.Log("code1 "+code1);
+            //   string Emailkkkkkkkkk=PlayerPrefs.GetString("Email",Email);
+            //  Debug.Log("[[[[[[[[[[[[[[[[[[Email]]]]]]]]]]]]]]]]]] "+Emailkkkkkkkkk);
              PlayerPrefs.Save();
              
         }

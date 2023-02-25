@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameAccount 
 {
+     public string Email;
     public string UserName;
     public string Rank;
     public string Image;

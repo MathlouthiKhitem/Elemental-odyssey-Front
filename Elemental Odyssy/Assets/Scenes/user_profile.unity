@@ -1740,7 +1740,7 @@ GameObject:
   - component: {fileID: 1153312742}
   - component: {fileID: 1153312741}
   - component: {fileID: 1153312740}
-  - component: {fileID: 1153312739}
+  - component: {fileID: 1153312743}
   m_Layer: 0
   m_Name: DeleteAcc
   m_TagString: Untagged
@@ -1769,19 +1769,6 @@ RectTransform:
   m_AnchoredPosition: {x: -90, y: -1000}
   m_SizeDelta: {x: 600, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1153312739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153312737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12cb0cda938d3445a9c92e53e00ae9fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  authURL: http://127.0.0.1:9090/user/DeleteAcc/:UserName
 --- !u!114 &1153312740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1826,7 +1813,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1153312739}
+      - m_Target: {fileID: 1153312743}
         m_TargetAssemblyTypeName: DeleteAcc, Assembly-CSharp
         m_MethodName: OnDeleteAcclick
         m_Mode: 1
@@ -1876,6 +1863,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153312737}
   m_CullTransparentMesh: 1
+--- !u!114 &1153312743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153312737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12cb0cda938d3445a9c92e53e00ae9fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  authURL: http://127.0.0.1:9090/user/DeleteAcc
 --- !u!1 &1170792857
 GameObject:
   m_ObjectHideFlags: 0

@@ -26,9 +26,14 @@ public class UserProfile : MonoBehaviour
     {
         
             
-            
+             string EmailPlayerPrefs = PlayerPrefs.GetString("Email");
+             Debug.Log("}}}]}}}}}}}}}}}}}}"+ EmailPlayerPrefs);
+
             WWWForm LoginForm = new WWWForm();
-            LoginForm.AddField("Email", "elemental@email.com");
+            LoginForm.AddField("Email", EmailPlayerPrefs);
+
+       
+             
             UnityWebRequest request = UnityWebRequest.Post(getoneURL, LoginForm);
             var handler = request.SendWebRequest();
             Debug.Log(handler);
@@ -49,7 +54,7 @@ public class UserProfile : MonoBehaviour
             GameAccount returnedAccountinfo = JsonUtility.FromJson<GameAccount>(request.downloadHandler.text);
             ProfileName.text = returnedAccountinfo.UserName;
             ProfileRank.text = returnedAccountinfo.Rank;
-            
+             Debug.Log("unable to connect"+ProfileName);
             WWW www = new WWW(returnedAccountinfo.Image);
             yield return www;
             Texture2D LoadProfileImage = www.texture;

@@ -1,12 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
+using TMPro;
+using System.Collections.Generic;
 
 public class DeleteAcc : MonoBehaviour
 {
-      
-       [SerializeField] private string authURL = "http://127.0.0.1:9090/user/DeleteAcc/:UserName";
+
+       
+       [SerializeField] private string authURL = "http://127.0.0.1:9090/user/DeleteAcc";
         
     public void OnDeleteAcclick()
     {
@@ -17,7 +19,19 @@ public class DeleteAcc : MonoBehaviour
     }
     private IEnumerator TryDeleteAcc()
     {
-        UnityWebRequest request = UnityWebRequest.Get(authURL);
+       
+        string UserNamePref = PlayerPrefs.GetString("UserNamePref"); 
+     
+
+       // JObject json = JObject.Parse(UserNamePref);
+    //    Debug.Log("{{{{{{{{{{"+json)
+       // JObject json = JObject.Parse($"{{\"UserName\": \"{UserNamePref}\"}}");
+    //tring json1 = json.ToString(Newtonsoft.Json.Formatting.None);
+       // Debug.Log("///////////////////////"+json);
+       //string json1 = JsonConvert.SerializeObject(UserNamePref);
+       WWWForm lll = new WWWForm();
+        lll.AddField("UserName",UserNamePref);
+        UnityWebRequest request = UnityWebRequest.Post(authURL,lll);
         var handler = request.SendWebRequest();
         float startTime = 0.0f;
         while (!handler.isDone)
@@ -31,7 +45,7 @@ public class DeleteAcc : MonoBehaviour
         }
         if (request.result ==UnityWebRequest.Result.Success) 
         { 
-             string UserNamePref = PlayerPrefs.GetString("UserNamePref");
+           
             Debug.Log(request.downloadHandler.text);
         }
         else
