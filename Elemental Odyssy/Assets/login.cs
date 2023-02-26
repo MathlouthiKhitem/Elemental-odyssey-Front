@@ -8,7 +8,7 @@ using UnityEngine.Networking;
 public class login : MonoBehaviour
 {  
     [SerializeField] private string authURL = "http://127.0.0.1:9090/user/signin";
-    [SerializeField] private TMPro.TMP_InputField UsernameInputField;
+    [SerializeField] private TMPro.TMP_InputField EmailInputField;
     [SerializeField] private TMPro.TMP_InputField PasswordInputField;
     
     public void OnLoginClick()
@@ -20,11 +20,11 @@ public class login : MonoBehaviour
     }
     private IEnumerator TryLogin()
     {
-        string FirstName = UsernameInputField.text;
+        string Email = EmailInputField.text;
         string Password = PasswordInputField.text;
-        Debug.Log(FirstName + " " + Password);
+        Debug.Log(Email + " " + Password);
         WWWForm LoginForm = new WWWForm();
-        LoginForm.AddField("FirstName",FirstName);
+        LoginForm.AddField("Email",Email);
         LoginForm.AddField("Password",Password);
        
         
