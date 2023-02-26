@@ -23,7 +23,7 @@ public class test2 : MonoBehaviour
         string storedString = PlayerPrefs.GetString("mycode");
         Debug.Log("GetString"+storedString);
         if(CodeVerfication == storedString){
-    
+
           Debug.Log("code correct");
         }
     
