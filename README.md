@@ -48,7 +48,7 @@ steps:
 
 <img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359599500_980005039976302_7302042487763249383_n.png" width="400" height="200">
 
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359681306_847438703666451_718405642792185248_n.png" width="500" height="400">
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359681306_847438703666451_718405642792185248_n.png" width="400" height="200">
 
 <img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359579525_1337498487135261_5318326688296381529_n.png" width="500" height="400">
 <img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260544_308470428409862_4565370347884281255_n.png" width="500" height="400">
@@ -67,7 +67,7 @@ steps:
 
 <img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359689074_1383561749179345_497948743835085380_n.png" width="500" height="400">
 
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/Screenshot%202023-08-01%20at%205.54.21%20PM.png" width="500" height="400">
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/Screenshot%202023-08-01%20at%205.54.21%20PM.png" width="400" height="200">
 
 </div>
 
