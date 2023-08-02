@@ -40,11 +40,11 @@ steps:
 
 
 <div style="display: flex; flex-wrap: wrap;">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359663981_2061728507508032_8994146967878582469_n.png" width="400" height="100">
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359663981_2061728507508032_8994146967878582469_n.png" width="400" height="200">
 
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359347374_290567513658325_424728207033251039_n.png" width="100" height="400">
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359347374_290567513658325_424728207033251039_n.png" width="400" height="200">
 
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260543_1013344133028229_7350948158470545170_n.png" width="100" height="400">
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260543_1013344133028229_7350948158470545170_n.png" width="400" height="200">
 
 <img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359599500_980005039976302_7302042487763249383_n.png" width="500" height="400">
 
