@@ -33,21 +33,41 @@ steps:
 <!--![App Screenshot](https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/364178480_1432469297536157_8114599164184158068_n.png)-->
 <!--![App Screenshot](https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359929478_6351371728243124_1180027779118891646_n.png)-->
 
+<!--![App Screenshot](https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359579525_1337498487135261_5318326688296381529_n.png)-->
+<!--![App Screenshot](https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359689074_1383561749179345_497948743835085380_n.png)-->
+<!--![App Screenshot](https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/Screenshot%202023-08-01%20at%205.54.21%20PM.png)-->
+
+
 
 <div style="display: flex; flex-wrap: wrap;">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359663981_2061728507508032_8994146967878582469_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359347374_290567513658325_424728207033251039_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260543_1013344133028229_7350948158470545170_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359599500_980005039976302_7302042487763249383_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359681306_847438703666451_718405642792185248_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359579525_1337498487135261_5318326688296381529_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260544_308470428409862_4565370347884281255_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359469702_612702067393233_2886699731763488529_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/364181896_193630877032811_1172177204994586080_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359723947_6145744912221004_1116321170441448100_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/364178480_1432469297536157_8114599164184158068_n.png" width="400" height="400">
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359929478_6351371728243124_1180027779118891646_n.png" width="400" height="400">
-<
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359663981_2061728507508032_8994146967878582469_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359347374_290567513658325_424728207033251039_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260543_1013344133028229_7350948158470545170_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359599500_980005039976302_7302042487763249383_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359681306_847438703666451_718405642792185248_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359579525_1337498487135261_5318326688296381529_n.png" width="500" height="400">
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260544_308470428409862_4565370347884281255_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359469702_612702067393233_2886699731763488529_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/364181896_193630877032811_1172177204994586080_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359723947_6145744912221004_1116321170441448100_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/364178480_1432469297536157_8114599164184158068_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359929478_6351371728243124_1180027779118891646_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359579525_1337498487135261_5318326688296381529_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359689074_1383561749179345_497948743835085380_n.png" width="500" height="400">
+
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/Screenshot%202023-08-01%20at%205.54.21%20PM.png" width="500" height="400">
 
 </div>
 
