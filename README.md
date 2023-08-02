@@ -44,9 +44,9 @@ steps:
 
 <img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359347374_290567513658325_424728207033251039_n.png" width="400" height="200">
 
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260543_1013344133028229_7350948158470545170_n.png" width="400" height="50">
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359260543_1013344133028229_7350948158470545170_n.png" width="200" height="200">
 
-<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359599500_980005039976302_7302042487763249383_n.png" width="400" height="50">
+<img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359599500_980005039976302_7302042487763249383_n.png" width="400" height="200">
 
 <img src="https://github.com/MathlouthiKhitem/Elemental-odyssey-Front/blob/main/Elemental%20Odyssy/screenshots/359681306_847438703666451_718405642792185248_n.png" width="500" height="400">
 
