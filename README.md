@@ -1,5 +1,5 @@
 # Elemental odyssey
-
+elemental oddesey, i s a cross platform nft based card game, developed using unity and c#, it include a market place using etherium crypto token, and nft based cards, each player has unique nft cards and normal commun cards, through the game each play can play one of his hero's and boost it using energy cards, or use special cards for special effects after boosting the cards you may attack the enemy cards, once one play life points reach 0 we get a winner
 
 
 ## Getting started
@@ -7,6 +7,14 @@
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khitem-mathlouthi-838053242/)
+## Documentation
+
+steps: 
+-clone the project inside a new folder call it for example "Elemental Odyssey"
+-clone this project ( containing the back server of the app ) : https://github.com/MathlouthiKhitem/-Elemental-odyssey-BackServer
 
 ## Add your files
 
